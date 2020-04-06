@@ -17,3 +17,6 @@
   },
   "homepage": "https://github.com/msheldon0626/2gthr#readme"
 }
+"scripts": {
+  "start": "node server.js"
+}
