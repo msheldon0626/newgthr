@@ -1,20 +1,19 @@
 {
-  "name": "2gthr",
+  "name": "newgthr",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/msheldon0626/2gthr.git"
+    "url": "git+https://github.com/msheldon0626/newgthr.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/msheldon0626/2gthr/issues"
+    "url": "https://github.com/msheldon0626/newgthr/issues"
   },
-  "homepage": "https://github.com/msheldon0626/2gthr#readme"
+  "homepage": "https://github.com/msheldon0626/newgthr#readme"
 }
-//
