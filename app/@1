@@ -1,0 +1,1 @@
+npm WARN notice [SECURITY] npm has the following vulnerabilities: 1 high, 3 low. Go here for more details: https://www.npmjs.com/advisories?search=npm&version=2.14.22 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
