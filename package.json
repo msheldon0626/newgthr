@@ -8,7 +8,9 @@
     "npm": "2.14.x"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "bower install && grunt clientBuild",
+    "heroku-postbuild": "node server.js"
   },
   "repository": {
     "type": "git",
