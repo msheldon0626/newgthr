@@ -9,8 +9,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "postinstall": "bower install && grunt clientBuild",
-    "heroku-postbuild": "node server.js"
+    "postinstall": "bower install && grunt clientBuild"
   },
   "repository": {
     "type": "git",
