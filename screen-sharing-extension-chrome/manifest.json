@@ -1,13 +1,13 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
 
-  "name" : "OpenTokRTC Screen Sharing",
-  "author": "TokBox, Inc.",
+  "name" : "2gthr-screen-share",
+  "author": "2gthr",
   "version" : "1.4",
   "manifest_version" : 2,
   "minimum_chrome_version": "34",
-  "description" : "This Chrome extension is developed for Tokbox demos. It simply captures the content of your screen.",
-  "homepage_url": "https://opentokdemo.tokbox.com",
+  "description" : "This Chrome extension is developed for 2gthr. It simply captures the content of your screen.",
+  "homepage_url": "https://2gthr.app",
   "background": {
     "scripts": ["background-script.js"],
     "persistent": false
@@ -15,7 +15,7 @@
   "content_scripts": [ {
    "js": [ "content-script.js" ],
    "all_frames": true,
-   "matches": ["https://opentokdemo.tokbox.com/*", "https://pse001-iad.herokuapp.com/*"]
+   "matches": ["https://www.2gthr.app", "https://www.2gthr.net", "https://www.2gthr.live" ]
   }],
   "icons": {
     "16": "logo16.png",
